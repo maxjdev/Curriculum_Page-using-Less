@@ -10,13 +10,5 @@
   "license": "ISC",
   "devDependencies": {
     "less": "^4.2.0"
-  },
-  "vercel": {
-    "builds": [
-      {
-        "src": "build/*",
-        "use": "@vercel/static-build"
-      }
-    ]
   }
 }
