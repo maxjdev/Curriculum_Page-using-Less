@@ -1,10 +1,11 @@
 {
-  "name": "tarefas_frontend_ebac",
+  "name": "cv-page",
   "version": "1.0.0",
   "description": "<img src=\"https://i.postimg.cc/3xbR5F7H/rounded-in-photoretrica.png\" width=\"150\">",
   "main": "index.js",
   "scripts": {
     "less": "less-watch-compiler ./src/styles ./build/styles main.less",
+    "build": "npm run less",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -12,5 +13,13 @@
   "devDependencies": {
     "less": "^4.2.0",
     "less-watch-compiler": "^1.16.3"
+  },
+  "vercel": {
+    "builds": [
+      {
+        "src": "build/*",
+        "use": "@vercel/static-build"
+      }
+    ]
   }
 }
