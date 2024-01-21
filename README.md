@@ -6,9 +6,13 @@
   <h1>Project: Curriculum Page <a href="https://cv-page-qxk3np9xw-maxjdev.vercel.app/">Deploy</a></h1>
 </div>
 
+<div align="center">
+
 ## Image
 
 <img src="https://i.postimg.cc/90JSWGwh/screencapture-cv-page-qxk3np9xw-maxjdev-vercel-app-2023-12-01-10-21-09.png">
+</div>
+
 
 ## Description
 
